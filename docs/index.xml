@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning CS 4641 &amp; 7641 - Spring 2027 - Campus (The class website is still being heavily changed and we are working on it to make it available for Spring 2027 - very EXCITED) on Class Homepage</title>
+    <title>Machine Learning CS 4641 &amp; 7641 - Spring 2027 - Campus on Class Homepage</title>
     <link>/</link>
-    <description>Recent content in Machine Learning CS 4641 &amp; 7641 - Spring 2027 - Campus (The class website is still being heavily changed and we are working on it to make it available for Spring 2027 - very EXCITED) on Class Homepage</description>
+    <description>Recent content in Machine Learning CS 4641 &amp; 7641 - Spring 2027 - Campus on Class Homepage</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -13,7 +13,7 @@
       
       <guid>/docs/grading/categories/</guid>
       <description>Grading Categories # The required course components total 100%. There is no final exam. Teams can earn up to 5 additional course percentage points for exceptional optional work beyond the required team project, for a maximum course score of 105%. The bonus criteria explain what qualifies.
-Component Course weight Quizzes 1–14 15% Midterm exam 10% Individual project 35% Team project 40% Total 100% Quiz 0 is required preparation but carries no course-grade weight.</description>
+Component Course weight Quizzes 1–14 15% Midterm exam 10% Individual project 30% Class participation 5% Team project 40% Total 100% Quiz 0 is required preparation but carries no course-grade weight.</description>
     </item>
     
     <item>
@@ -42,7 +42,7 @@ CSE students should note that CS 7641 is not allowed as a substitute for the CSE
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/guidelines/general/</guid>
-      <description>General Course Policies # Online participation and course materials # Core lectures are pre-recorded; live lecture attendance is not required. Study the assigned videos and notes, complete assessments within their availability windows, and work on both the individual and team projects. The schedule also links interactive visualizations and demonstrations when available.
+      <description>General Course Policies # Campus participation and course materials # Participate in scheduled campus class meetings and use the assigned materials to prepare and review. Study the assigned videos and notes, complete assessments within their availability windows, and work on both the individual and team projects. The schedule also links interactive visualizations and demonstrations when available.
 Course-created videos, notes, assessment questions, and code are for enrolled students. Do not redistribute them outside the course without written permission.</description>
     </item>
     
@@ -84,7 +84,7 @@ This is the required layout for your own individual project website (the GitHub 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/docs/guidelines/office-hours/</guid>
-      <description>Online Office Hours # Office hours are optional online help sessions. They do not replace scheduled project reviews.
+      <description>Office Hours # Office hours are optional online help sessions. They do not replace scheduled project reviews.
 Joining a session # A TA announces the session in an Ed thread with the time and any focus topic. Reply with a short, specific question and what you have tried. Do not post private information, complete code, grades, or confidential project data. The TA answers in the thread when useful to the class, or sends a private meeting link when screen sharing or individual discussion is needed.</description>
     </item>
     
