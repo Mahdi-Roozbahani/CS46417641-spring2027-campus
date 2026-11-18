@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources on Class Homepage</title>
+    <link>/docs/resources/</link>
+    <description>Recent content in Resources on Class Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/docs/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collection</title>
+      <link>/docs/resources/collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/resources/collection/</guid>
+      <description>GT Resources # For any resources related to Student Engagement and Wellbeing such as Dean of Student&amp;rsquo;s contacts, Library, etc., please refer to this LINK
+Class Resources # Main Course Reference # The main reference for this course is Pattern Recognition and Machine Learning (PRML) by Christopher M. Bishop. The course is based primarily on this book, with lecture materials and assigned readings providing additional coverage. A free official PDF is available, so purchasing a printed copy is not required.</description>
+    </item>
+    
+    <item>
+      <title>Print Website</title>
+      <link>/docs/resources/print-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/resources/print-website/</guid>
+      <description>Print Website # Choose the pages you want, preview the combined document, and then use your browser&amp;rsquo;s print dialog to save it as a PDF.</description>
+    </item>
+    
+  </channel>
+</rss>

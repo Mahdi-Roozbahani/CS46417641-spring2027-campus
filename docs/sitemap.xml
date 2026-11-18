@@ -2,14 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/docs/course-info/course-schedule-mroozbahani3/</loc>
+    <loc>/docs/grading/categories/</loc>
   </url><url>
-    <loc>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/categories/</loc>
+    <loc>/docs/resources/collection/</loc>
   </url><url>
-    <loc>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/</loc>
+    <loc>/docs/course-info/course-overview/</loc>
   </url><url>
-    <loc>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/docs/</loc>
+    <loc>/docs/guidelines/general/</loc>
   </url><url>
-    <loc>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/tags/</loc>
+    <loc>/docs/grading/project-breakdown/individual-project/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/individual-project/requirements/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/topic-example/</loc>
+  </url><url>
+    <loc>/docs/course-info/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/individual-project/website-template/</loc>
+  </url><url>
+    <loc>/docs/guidelines/office-hours/</loc>
+  </url><url>
+    <loc>/docs/course-info/instructors-and-tas/</loc>
+  </url><url>
+    <loc>/docs/resources/print-website/</loc>
+  </url><url>
+    <loc>/docs/grading/qquizzes-and-exams/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/proposal/</loc>
+  </url><url>
+    <loc>/docs/course-info/course-schedule-mahdi/</loc>
+  </url><url>
+    <loc>/docs/guidelines/</loc>
+  </url><url>
+    <loc>/docs/guidelines/project-interviews/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/project-ta-meeting/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/midterm/</loc>
+  </url><url>
+    <loc>/docs/guidelines/ed-discussion/</loc>
+  </url><url>
+    <loc>/docs/grading/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/final/</loc>
+  </url><url>
+    <loc>/docs/guidelines/honorlock/</loc>
+  </url><url>
+    <loc>/docs/resources/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/website-template/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/bonus/</loc>
+  </url><url>
+    <loc>/docs/grading/project-breakdown/team-project/awards-and-examples/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/docs/</loc>
+  </url><url>
+    <loc>/tags/</loc>
   </url>
 </urlset>

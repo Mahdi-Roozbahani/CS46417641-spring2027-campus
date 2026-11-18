@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Honorlock and Proctored Assessments # This page covers proctoring setup and technical incidents. See Quizzes and Exams for assessment content, permitted materials, and the midterm reference-sheet policy.
+Prepare with Quiz 0 # Before taking any graded quiz or the online midterm exam, open Quiz 0, answer its practice question(s), and complete the submission using the same computer, browser, camera, microphone, and internet connection you will use for that assessment. Confirm that Honorlock launches correctly and that your equipment and internet connection are working reliably.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Honorlock" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="/docs/guidelines/honorlock/" />
+<title>Honorlock | Class Homepage</title>
+<link rel="manifest" href="../../../manifest.json">
+<link rel="icon" href="../../../favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="../../../book.min.6496243edb57565afc5cda16710ff127d2b9d6741a2b171a4fc14a44d3f60fc0.css" ><link rel="alternate" type="application/rss+xml" href="../../../docs/guidelines/honorlock/index.xml" title="Class Homepage" />
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+<meta name="course-image-preview" content="enabled"><style>.book-brand { display: flex; flex-direction: column; align-items: center; gap: .75rem; text-align: center; }
+.book-brand > a { justify-content: center; width: 100%; line-height: 1.25; }
+.book-brand .course-image-open img { display: block; width: 8rem; height: 8rem; max-width: 100%; margin: 0; object-fit: contain; }
+.book-brand .course-image-open:focus:not(:focus-visible) { outline: none; }
+.book-brand .course-image-open { flex: none; padding: 0; border: 0; background: transparent; cursor: zoom-in; color: inherit; font: inherit; }
+.course-image-open:focus-visible, .course-image-close:focus-visible { outline: 2px solid var(--color-link); outline-offset: 3px; }
+.course-image-dialog { padding: 2.5rem 1rem 1rem; border: 1px solid var(--gray-200); border-radius: .25rem; background: var(--body-background); color: var(--body-font-color); max-width: 95vw; max-height: 95vh; }
+.course-image-dialog::backdrop { background: var(--body-font-color); opacity: .75; }
+.course-image-dialog > img { display: block; width: auto; height: auto; max-width: min(88vw, calc(95vw - 2rem - 2px)); max-height: min(82vh, calc(100dvh - 5rem)); object-fit: contain; }
+.course-image-close { position: absolute; right: .5rem; top: .25rem; border: 0; background: transparent; color: inherit; font-size: 2rem; cursor: pointer; min-width: 2rem; }
+@media print { .course-image-dialog { display: none !important; } }
+</style><script>/* Used by the published site and the trusted, script-sandboxed draft wrapper. */
+window.initializeCourseImagePreview = function (doc) {
+  if (!doc.querySelector('meta[name="course-image-preview"]')) return;
+  const image = doc.querySelector('.book-brand img');
+  if (!image || image.closest('button')) return;
+  const link = image.closest('a');
+  if (!link) return;
+  const button = doc.createElement('button');
+  button.type = 'button';
+  button.className = 'course-image-open';
+  button.setAttribute('aria-label', 'Enlarge class picture');
+  link.before(button);
+  button.append(image);
+  const dialog = doc.createElement('dialog');
+  dialog.className = 'course-image-dialog';
+  dialog.setAttribute('aria-label', 'Class picture');
+  const close = doc.createElement('button');
+  close.type = 'button';
+  close.className = 'course-image-close';
+  close.setAttribute('aria-label', 'Close enlarged picture');
+  close.textContent = '\u00d7';
+  const enlarged = doc.createElement('img');
+  enlarged.alt = 'Enlarged class picture';
+  dialog.append(close, enlarged);
+  doc.body.append(dialog);
+  button.addEventListener('click', () => {
+    enlarged.src = image.currentSrc || image.src;
+    dialog.showModal();
+    close.focus();
+  });
+  close.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', () => button.focus());
+};
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => window.initializeCourseImagePreview(document));
+} else {
+  window.initializeCourseImagePreview(document);
+}
+</script><style id="course-navigation-levels">/* Use the course theme's neutral palette for the sidebar hierarchy. */
+/* Let the desktop menu follow the document; retain the mobile drawer scroll. */
+@media screen and (min-width: 56.001rem) {
+  .book-menu .book-menu-content {
+    position: static;
+    overflow: visible;
+  }
+}
+
+.book-menu nav > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  font-weight: 700;
+}
+.book-menu nav > ul > li > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  color: color-mix(in srgb, var(--body-font-color) 80%, var(--body-background));
+  font-weight: 400;
+}
+.book-menu nav > ul > li > ul > li > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  color: color-mix(in srgb, var(--body-font-color) 85%, var(--body-background));
+  font-weight: 600;
+}
+.book-menu nav > ul > li > ul > li > ul > li > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  color: color-mix(in srgb, var(--body-font-color) 70%, var(--body-background));
+  font-weight: 400;
+}
+.book-menu nav > ul a:hover,
+.book-menu nav > ul a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.book-menu nav > ul a.active {
+  color: var(--body-font-color);
+  background: var(--gray-100);
+  box-shadow: inset 3px 0 var(--gray-500);
+  font-weight: 700;
+  text-decoration: none;
+}
+</style></head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="../../../" target="_self" rel="noopener noreferrer"><img src="../../../branding/ML.png" alt="Logo" /><span>Class Homepage</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        
+          <li class="book-section-flat" >
+            
+  
+  
+
+  
+    <span>Course Info</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/course-info/course-overview/" class="" target="_self" rel="noopener noreferrer">Course Overview</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/course-info/instructors-and-tas/" class="" target="_self" rel="noopener noreferrer">People</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/course-info/course-schedule-mahdi/" class="" target="_self" rel="noopener noreferrer">Course Schedule (Max Mahdi)</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <span>Guidelines</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/guidelines/general/" class="" target="_self" rel="noopener noreferrer">General</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/guidelines/office-hours/" class="" target="_self" rel="noopener noreferrer">Office Hours</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/guidelines/project-interviews/" class="" target="_self" rel="noopener noreferrer">Project Interview Rules</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/guidelines/ed-discussion/" class="" target="_self" rel="noopener noreferrer">Ed Discussion</a>
+  
+
+            
+  <ul>
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/guidelines/honorlock/" class="active" target="_self" rel="noopener noreferrer">Honorlock</a>
+  
+
+            
+  <ul>
+    
+  </ul>
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <span>Grading</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/categories/" class="" target="_self" rel="noopener noreferrer">Categories</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/qquizzes-and-exams/" class="" target="_self" rel="noopener noreferrer">Quizzes and Exams</a>
+  
+
+            
+  <ul>
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/" class="" target="_self" rel="noopener noreferrer">Projects: Individual and Team</a>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/individual-project/" class="" target="_self" rel="noopener noreferrer">Individual Project</a>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/individual-project/requirements/" class="" target="_self" rel="noopener noreferrer">Requirements</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/individual-project/website-template/" class="" target="_self" rel="noopener noreferrer">Individual Project Website Template</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/" class="" target="_self" rel="noopener noreferrer">Team Project</a>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/topic-example/" class="" target="_self" rel="noopener noreferrer">Topic and Project Example</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/proposal/" class="" target="_self" rel="noopener noreferrer">Team Proposal</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/midterm/" class="" target="_self" rel="noopener noreferrer">Team Midterm Review</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/final/" class="" target="_self" rel="noopener noreferrer">Team Final Report</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/website-template/" class="" target="_self" rel="noopener noreferrer">Team Project Website Template</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/bonus/" class="" target="_self" rel="noopener noreferrer">Bonus</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/grading/project-breakdown/team-project/awards-and-examples/" class="" target="_self" rel="noopener noreferrer">Awards and Examples</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li class="book-section-flat" >
+            
+  
+  
+
+  
+    <span>Resources</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/resources/collection/" class="" target="_self" rel="noopener noreferrer">Collection</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../docs/resources/print-website/" class="" target="_self" rel="noopener noreferrer">Print Website</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Honorlock</strong>
+
+  <label for="toc-control">
+    
+    <img src="../../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#honorlock-and-proctored-assessments" target="_self" rel="noopener noreferrer">Honorlock and Proctored Assessments</a>
+      <ul>
+        <li><a href="#prepare-with-quiz-0" target="_self" rel="noopener noreferrer">Prepare with Quiz 0</a></li>
+        <li><a href="#academic-integrity-warning-cheating-and-proctoring-violations" target="_self" rel="noopener noreferrer">Academic Integrity Warning: Cheating and Proctoring Violations</a></li>
+        <li><a href="#websites-during-an-assessment" target="_self" rel="noopener noreferrer">Websites during an assessment</a></li>
+        <li><a href="#access-code-or-technical-problem" target="_self" rel="noopener noreferrer">Access-code or technical problem</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="honorlock-and-proctored-assessments">
+  Honorlock and Proctored Assessments
+  <a class="anchor" href="#honorlock-and-proctored-assessments" target="_self" rel="noopener noreferrer">#</a>
+</h1>
+<p>This page covers proctoring setup and technical incidents. See <a href="../../grading/qquizzes-and-exams/" target="_blank" rel="noopener noreferrer">Quizzes and Exams</a> for assessment content, permitted materials, and the midterm reference-sheet policy.</p>
+<h2 id="prepare-with-quiz-0">
+  Prepare with Quiz 0
+  <a class="anchor" href="#prepare-with-quiz-0" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p><strong>Before taking any graded quiz or the online midterm exam, open Quiz 0, answer its practice question(s), and complete the submission using the same computer, browser, camera, microphone, and internet connection you will use for that assessment. Confirm that Honorlock launches correctly and that your equipment and internet connection are working reliably. Quiz 0 is ungraded.</strong></p>
+<p><strong>Use Quiz 0 to identify and resolve setup problems before starting a graded attempt. Do not start a graded quiz or the midterm exam with an unresolved problem.</strong> A successful practice attempt cannot guarantee that no later outage will occur.</p>
+<p><strong>You are responsible for your equipment, internet connection, and testing readiness. The teaching team is not responsible for problems with your personal setup. A technical problem does not automatically entitle you to a restart, extra time, a make-up, or credit for a quiz or midterm exam you could not complete. Unless an exception is officially approved, an uncompleted quiz or midterm exam receives no credit.</strong> For an incident during an attempt, follow <a href="#access-code-or-technical-problem" target="_blank" rel="noopener noreferrer">technical support instructions</a>. For an accommodation or exceptional circumstance, use the <a href="../general/#accommodations-and-exceptional-circumstances" target="_blank" rel="noopener noreferrer">official approval and Hub-document process</a>; contacting staff is not a substitute for that process.</p>
+<p>Before each assessment, confirm that your camera and microphone work, disconnect external monitors and unauthorized devices, close communication, recording, remote-access, and AI applications, and launch from the Honorlock-enabled Canvas link.</p>
+<h2 id="academic-integrity-warning-cheating-and-proctoring-violations">
+  Academic Integrity Warning: Cheating and Proctoring Violations
+  <a class="anchor" href="#academic-integrity-warning-cheating-and-proctoring-violations" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p><strong>Unauthorized assistance and attempts to bypass proctoring are serious academic-integrity concerns. Suspected violations are referred to the Georgia Tech Office of Student Integrity under Institute procedures.</strong></p>
+<ul>
+<li><strong>Keep your head facing the assessment screen and your face clearly visible.</strong> Sit upright in a well-lit room with your full face centered in the camera view. Keep your attention on the assessment and explicitly permitted materials. Do not repeatedly turn your head or look away toward unauthorized notes, screens, devices, or other people. Normal blinking, reading across the screen, and consulting explicitly permitted materials are expected; you do not need to hold your eyes or head motionless. Leaving the camera frame can trigger an Honorlock flag, and repeated head turns or prolonged off-screen glances may be reviewed by the teaching team in context.</li>
+<li><strong>No messaging, social media, calls, or outside help.</strong> Do not use WhatsApp, Telegram, Signal, SMS/iMessage, Discord, Slack, Microsoft Teams, Zoom, email, Facebook, Instagram, Snapchat, or any other messaging, calling, or social-media service during a quiz or the midterm. Close these applications before starting. Do not communicate with classmates, friends, tutors, paid helpers, or anyone else about an active assessment. Use only the built-in Honorlock support channel for technical assistance, as described below.</li>
+<li><strong>No AI assistance or question/answer handoffs.</strong> Do not use ChatGPT, Claude, Gemini, Copilot, or any other AI assistant, chatbot, browser assistant, or AI application during an assessment. Do not photograph, screenshot, copy, dictate, forward, stream, or otherwise hand off assessment questions or answers to another person, group, service, or AI system, or receive answers or guidance from them. This prohibition applies across all devices, accounts, browsers, and applications, including indirect handoffs through another person.</li>
+<li><strong>Do not bypass or interfere with Honorlock.</strong> Virtual machines, remote desktop, screen sharing, second devices, unauthorized browser environments, remote assistance, and any other method of evading proctoring or obtaining unauthorized help are prohibited.</li>
+</ul>
+<p>An automated Honorlock flag alone is not a misconduct finding; the team reviews relevant recordings and logs in context. Do not assume that an unflagged action is permitted.</p>
+<p>Approved disability accommodations are implemented with the Office of Disability Services. See <a href="../general/" target="_blank" rel="noopener noreferrer">General Course Policies</a> for the approval and Hub-document process.</p>
+<h2 id="websites-during-an-assessment">
+  Websites during an assessment
+  <a class="anchor" href="#websites-during-an-assessment" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p>Do not browse websites during a quiz or the midterm. The only sites permitted in the proctored browser are Canvas/Honorlock and, <strong>for the midterm only</strong>, the authorized ML Class Hub link to your own reference sheet. Other Hub pages are not permitted. Do not use a second device or another browser to reach a blocked site. If the reference-sheet link does not open during the midterm, contact Honorlock live support immediately instead of bypassing the restriction, then report the incident to your assigned mentor in a private Ed post after the attempt.</p>
+<h2 id="access-code-or-technical-problem">
+  Access-code or technical problem
+  <a class="anchor" href="#access-code-or-technical-problem" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p><strong>For Honorlock problems, open your course in Canvas, select Honorlock, and use its built-in support/chat control.</strong> During an assessment, use the support control in the active Honorlock window and follow the proctor&rsquo;s instructions. Keep the support case number for any incident report. Do not leave the assessment to visit an external support website or use an unauthorized device.</p>
+<p>If Canvas asks for an access code, do not request one from another student or the team. Exit before beginning, confirm Chrome and the Honorlock extension are active, then relaunch through the Honorlock-enabled Canvas link. Contact Honorlock live support if the problem continues.</p>
+<p>If a problem occurs during an attempt, contact Honorlock live support immediately, follow its instructions, preserve the case number, and submit a private Ed post to your assigned mentor promptly afterward with the assessment name, time, and factual description. Do not open an unauthorized app or device to troubleshoot. A technical incident does not automatically grant another attempt; the team reviews the available records.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#honorlock-and-proctored-assessments" target="_self" rel="noopener noreferrer">Honorlock and Proctored Assessments</a>
+      <ul>
+        <li><a href="#prepare-with-quiz-0" target="_self" rel="noopener noreferrer">Prepare with Quiz 0</a></li>
+        <li><a href="#academic-integrity-warning-cheating-and-proctoring-violations" target="_self" rel="noopener noreferrer">Academic Integrity Warning: Cheating and Proctoring Violations</a></li>
+        <li><a href="#websites-during-an-assessment" target="_self" rel="noopener noreferrer">Websites during an assessment</a></li>
+        <li><a href="#access-code-or-technical-problem" target="_self" rel="noopener noreferrer">Access-code or technical problem</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

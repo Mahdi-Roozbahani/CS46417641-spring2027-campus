@@ -2,17 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on Class Homepage</title>
-    <link>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/docs/</link>
+    <link>/docs/</link>
     <description>Recent content in Docs on Class Homepage</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Course Schedule (Max Mahdi Roozbahani)</title>
-      <link>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/docs/course-info/course-schedule-mroozbahani3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/docs/course-info/course-schedule-mroozbahani3/</guid>
-      <description>Schedule data is not available for this instructor in the current semester.</description>
-    </item>
-    
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/docs/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

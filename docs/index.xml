@@ -1,17 +1,198 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Class Homepage</title>
-    <link>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/</link>
-    <description>Recent content on Class Homepage</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <title>Machine Learning CS 4641 &amp; 7641 - Spring 2027 - Campus (The class website is still being heavily changed and we are working on it to make it available for Spring 2027 - very EXCITED) on Class Homepage</title>
+    <link>/</link>
+    <description>Recent content in Machine Learning CS 4641 &amp; 7641 - Spring 2027 - Campus (The class website is still being heavily changed and we are working on it to make it available for Spring 2027 - very EXCITED) on Class Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Course Schedule (Max Mahdi Roozbahani)</title>
-      <link>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/docs/course-info/course-schedule-mroozbahani3/</link>
+      <title>Categories</title>
+      <link>/docs/grading/categories/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mahdi-roozbahani.github.io/CS46417641-spring2027-campus/docs/course-info/course-schedule-mroozbahani3/</guid>
-      <description>Schedule data is not available for this instructor in the current semester.</description>
+      <guid>/docs/grading/categories/</guid>
+      <description>Grading Categories # The required course components total 100%. There is no final exam. Teams can earn up to 5 additional course percentage points for exceptional optional work beyond the required team project, for a maximum course score of 105%. The bonus criteria explain what qualifies.
+Component Course weight Quizzes 1–14 15% Midterm exam 10% Individual project 35% Team project 40% Total 100% Quiz 0 is required preparation but carries no course-grade weight.</description>
+    </item>
+    
+    <item>
+      <title>Collection</title>
+      <link>/docs/resources/collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/resources/collection/</guid>
+      <description>GT Resources # For any resources related to Student Engagement and Wellbeing such as Dean of Student&amp;rsquo;s contacts, Library, etc., please refer to this LINK
+Class Resources # Main Course Reference # The main reference for this course is Pattern Recognition and Machine Learning (PRML) by Christopher M. Bishop. The course is based primarily on this book, with lecture materials and assigned readings providing additional coverage. A free official PDF is available, so purchasing a printed copy is not required.</description>
+    </item>
+    
+    <item>
+      <title>Course Overview</title>
+      <link>/docs/course-info/course-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/course-info/course-overview/</guid>
+      <description>Course Overview # Important
+CSE students should note that CS 7641 is not allowed as a substitute for the CSE core course CSE 6740, and that they cannot get credit for both CSE 6740 and CS 7641. Course Description # This course introduces techniques in machine learning with an emphasis on algorithms and their applications to real-world data. We will investigate the following question: how to computationally extract useful knowledge from data for decision making and task support!</description>
+    </item>
+    
+    <item>
+      <title>General</title>
+      <link>/docs/guidelines/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/guidelines/general/</guid>
+      <description>General Course Policies # Online participation and course materials # Core lectures are pre-recorded; live lecture attendance is not required. Study the assigned videos and notes, complete assessments within their availability windows, and work on both the individual and team projects. The schedule also links interactive visualizations and demonstrations when available.
+Course-created videos, notes, assessment questions, and code are for enrolled students. Do not redistribute them outside the course without written permission.</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>/docs/grading/project-breakdown/individual-project/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/individual-project/requirements/</guid>
+      <description>Requirements # ML Class Hub will give you the required dataset. Do not choose a different one. The final prediction question or questions depend on that dataset and will be stated separately; this website template does not decide them. This is your own project, separate from the team project.
+Start with the required website template # Create your own GitHub Pages project website and register its link in ML Class Hub.</description>
+    </item>
+    
+    <item>
+      <title>Topic and Project Example</title>
+      <link>/docs/grading/project-breakdown/team-project/topic-example/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/team-project/topic-example/</guid>
+      <description>Choosing a Team Project Topic # For the purpose of the team project and how to make the most of working together, see Team Project: Create something that matters beyond this course.
+Higher accuracy does not automatically mean a higher grade. The project is assessed through understanding, substantive documented effort, creativity, collaboration, and thoughtful evaluation. See how the team project is graded.
+One example across stages # Suppose a team has customer reviews and asks &amp;ldquo;Can we predict whether a review is positive or negative, and what themes appear in the reviews?</description>
+    </item>
+    
+    <item>
+      <title>Individual Project Website Template</title>
+      <link>/docs/grading/project-breakdown/individual-project/website-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/individual-project/website-template/</guid>
+      <description>Individual Project # Download the complete Markdown starter (.md)
+Open the downloaded file in a text editor and replace the instructions with your own work. If your browser displays the file instead of downloading it, save the page as a .md file.
+This is the required layout for your own individual project website (the GitHub Pages link you register in ML Class Hub). This course page is only the example; your website will contain your answers, figures, and results.</description>
+    </item>
+    
+    <item>
+      <title>Office Hours</title>
+      <link>/docs/guidelines/office-hours/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/guidelines/office-hours/</guid>
+      <description>Online Office Hours # Office hours are optional online help sessions. They do not replace scheduled project reviews.
+Joining a session # A TA announces the session in an Ed thread with the time and any focus topic. Reply with a short, specific question and what you have tried. Do not post private information, complete code, grades, or confidential project data. The TA answers in the thread when useful to the class, or sends a private meeting link when screen sharing or individual discussion is needed.</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>/docs/course-info/instructors-and-tas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/course-info/instructors-and-tas/</guid>
+      <description> People # Instructors # Max Mahdi Roozbahani mahdir@gatech.edu https://mahdi-roozbahani.github.io/ </description>
+    </item>
+    
+    <item>
+      <title>Print Website</title>
+      <link>/docs/resources/print-website/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/resources/print-website/</guid>
+      <description>Print Website # Choose the pages you want, preview the combined document, and then use your browser&amp;rsquo;s print dialog to save it as a PDF.</description>
+    </item>
+    
+    <item>
+      <title>Team Proposal</title>
+      <link>/docs/grading/project-breakdown/team-project/proposal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/team-project/proposal/</guid>
+      <description>Team Project Proposal # Write the proposal on the same team website you will use through midterm and final. Register the team and link in ML Class Hub by the course schedule deadline. This is for the team project, not the individual project. No proposal video or separate proposal website is required.
+Choose a feasible question # Identify a meaningful ML question, a lawful and obtainable dataset, a simple baseline, and a measurable outcome.</description>
+    </item>
+    
+    <item>
+      <title>Course Schedule (Mahdi)</title>
+      <link>/docs/course-info/course-schedule-mahdi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/course-info/course-schedule-mahdi/</guid>
+      <description>Schedule # Important
+Unless explicitly stated otherwise, deadlines and due dates listed on this website are 11:59 PM Anywhere on Earth (AoE, UTC-12). AoE does not change for daylight saving time. See AoE conversions and daylight saving guidance. For Canvas assessments, check the exact due and availability closing times in Canvas. Scroll horizontally to see the full schedule table on mobile devices Week Dates Topics (Available on canvas) Quizzes Exam Individual &amp;amp; team projects Readings 1 Jan 11th - Jan 15th Course introduction (L1) NumPy and broadcasting (L2) Q0: L1, L2 (warmup) Individual and team projects released: Jan 15th GT Honor Code Heilmeier Catechism GitHub Pages Quickstart YAML Configuration NumPy Tutorial seaborn: statistical data visualization Overleaf for GT students NumPy tutorial 2 Jan 18th - Jan 22nd Official institute holiday &amp;ndash; Martin Luther King, Jr.</description>
+    </item>
+    
+    <item>
+      <title>Project Interview Rules</title>
+      <link>/docs/guidelines/project-interviews/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/guidelines/project-interviews/</guid>
+      <description>Project Interview Rules # These rules apply to both the team midterm interview and the individual final interview.
+Camera on: every participating student must keep their camera on with their face clearly visible throughout the interview, including all members attending a team interview. If an approved accommodation or a technical problem affects this requirement, contact your assigned mentor through a private Ed Discussion post before the interview when possible (see contact instructions).</description>
+    </item>
+    
+    <item>
+      <title>Project TA Meeting</title>
+      <link>/docs/grading/project-breakdown/project-ta-meeting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/project-ta-meeting/</guid>
+      <description>Project TA Meetings # The current Spring 2027 project-review schedule is explained on the Individual and Team Projects page and the course schedule. This older page is hidden from navigation so it does not duplicate or contradict those instructions.</description>
+    </item>
+    
+    <item>
+      <title>Team Midterm Review</title>
+      <link>/docs/grading/project-breakdown/team-project/midterm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/team-project/midterm/</guid>
+      <description>Team Midterm Website Review and TA Meeting # Update the same team website before the meeting with your assigned TA. This is the team midterm checkpoint, not a separate report or video. The course schedule gives the review window; the individual project&amp;rsquo;s video is a separate requirement.
+Update the proposal, do not start over # Keep the proposal&amp;rsquo;s section headings and turn plans into evidence:
+Introduction and related work: refine the question and explain any justified change since the proposal.</description>
+    </item>
+    
+    <item>
+      <title>Team Final Report</title>
+      <link>/docs/grading/project-breakdown/team-project/final/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/team-project/final/</guid>
+      <description>Team Final Report, Website, and Video # Complete a paper-style report on the same team website, with supporting code and reproduction instructions. Submit one unlisted YouTube video for the entire team. There is no team final interview. See the course schedule for the separate deadlines for the team final video and completed website/report. Keep the same ML Class Hub team link. The individual final is separate; see Individual Project.</description>
+    </item>
+    
+    <item>
+      <title>Team Project Website Template</title>
+      <link>/docs/grading/project-breakdown/team-project/website-template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/team-project/website-template/</guid>
+      <description>Team Project # Download the complete Markdown starter (.md)
+Open the downloaded file in a text editor and replace the instructions with your own work. If your browser displays the file instead of downloading it, save the page as a .md file.
+This is a starting layout for your team&amp;rsquo;s own project website, not a topic or result to copy. Keep the main headings so your TA can find the required work.</description>
+    </item>
+    
+    <item>
+      <title>Bonus</title>
+      <link>/docs/grading/project-breakdown/team-project/bonus/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/team-project/bonus/</guid>
+      <description>Optional Team-Project Bonus # The required course components total 100%. A team can earn up to 5 additional course percentage points, making 105% the maximum possible score. The individual project has no separate bonus. The same five items apply to CS 4641 and CS 7641 teams, but each item must be additional to the required work for that course level. A team can earn full required-project credit without any bonus work.</description>
+    </item>
+    
+    <item>
+      <title>Awards and Examples</title>
+      <link>/docs/grading/project-breakdown/team-project/awards-and-examples/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/grading/project-breakdown/team-project/awards-and-examples/</guid>
+      <description>Project Awards and Examples # These awards recognize exceptional individual and team projects. Awards are distinct from course grades and the optional team-project bonus; an award is not needed for full credit or bonus credit. Every completed project is eligible for consideration; no separate award application is required. The final website and interview are the evidence reviewed. See Grading Categories for the course-grade weights.
+What makes a project stand out # A clear, important question and an honest account of related work.</description>
     </item>
     
   </channel>

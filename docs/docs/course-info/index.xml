@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Course Info on Class Homepage</title>
+    <link>/docs/course-info/</link>
+    <description>Recent content in Course Info on Class Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/docs/course-info/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Course Overview</title>
+      <link>/docs/course-info/course-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/course-info/course-overview/</guid>
+      <description>Course Overview # Important
+CSE students should note that CS 7641 is not allowed as a substitute for the CSE core course CSE 6740, and that they cannot get credit for both CSE 6740 and CS 7641. Course Description # This course introduces techniques in machine learning with an emphasis on algorithms and their applications to real-world data. We will investigate the following question: how to computationally extract useful knowledge from data for decision making and task support!</description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>/docs/course-info/instructors-and-tas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/course-info/instructors-and-tas/</guid>
+      <description> People # Instructors # Max Mahdi Roozbahani mahdir@gatech.edu https://mahdi-roozbahani.github.io/ </description>
+    </item>
+    
+    <item>
+      <title>Course Schedule (Mahdi)</title>
+      <link>/docs/course-info/course-schedule-mahdi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/docs/course-info/course-schedule-mahdi/</guid>
+      <description>Schedule # Important
+Unless explicitly stated otherwise, deadlines and due dates listed on this website are 11:59 PM Anywhere on Earth (AoE, UTC-12). AoE does not change for daylight saving time. See AoE conversions and daylight saving guidance. For Canvas assessments, check the exact due and availability closing times in Canvas. Scroll horizontally to see the full schedule table on mobile devices Week Dates Topics (Available on canvas) Quizzes Exam Individual &amp;amp; team projects Readings 1 Jan 11th - Jan 15th Course introduction (L1) NumPy and broadcasting (L2) Q0: L1, L2 (warmup) Individual and team projects released: Jan 15th GT Honor Code Heilmeier Catechism GitHub Pages Quickstart YAML Configuration NumPy Tutorial seaborn: statistical data visualization Overleaf for GT students NumPy tutorial 2 Jan 18th - Jan 22nd Official institute holiday &amp;ndash; Martin Luther King, Jr.</description>
+    </item>
+    
+  </channel>
+</rss>

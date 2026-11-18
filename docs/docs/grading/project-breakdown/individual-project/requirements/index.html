@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Requirements # ML Class Hub will give you the required dataset. Do not choose a different one. The final prediction question or questions depend on that dataset and will be stated separately; this website template does not decide them. This is your own project, separate from the team project.
+Start with the required website template # Create your own GitHub Pages project website and register its link in ML Class Hub.">
+<meta name="theme-color" content="#FFFFFF">
+<meta name="color-scheme" content="light dark"><meta property="og:title" content="Requirements" />
+<meta property="og:description" content="Requirements # ML Class Hub will give you the required dataset. Do not choose a different one. The final prediction question or questions depend on that dataset and will be stated separately; this website template does not decide them. This is your own project, separate from the team project.
+Start with the required website template # Create your own GitHub Pages project website and register its link in ML Class Hub." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/docs/grading/project-breakdown/individual-project/requirements/" /><meta property="article:section" content="docs" />
+
+
+<title>Requirements | Class Homepage</title>
+<link rel="manifest" href="../../../../../manifest.json">
+<link rel="icon" href="../../../../../favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="../../../../../book.min.6496243edb57565afc5cda16710ff127d2b9d6741a2b171a4fc14a44d3f60fc0.css" ><!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+  
+<meta name="course-image-preview" content="enabled"><style>.book-brand { display: flex; flex-direction: column; align-items: center; gap: .75rem; text-align: center; }
+.book-brand > a { justify-content: center; width: 100%; line-height: 1.25; }
+.book-brand .course-image-open img { display: block; width: 8rem; height: 8rem; max-width: 100%; margin: 0; object-fit: contain; }
+.book-brand .course-image-open:focus:not(:focus-visible) { outline: none; }
+.book-brand .course-image-open { flex: none; padding: 0; border: 0; background: transparent; cursor: zoom-in; color: inherit; font: inherit; }
+.course-image-open:focus-visible, .course-image-close:focus-visible { outline: 2px solid var(--color-link); outline-offset: 3px; }
+.course-image-dialog { padding: 2.5rem 1rem 1rem; border: 1px solid var(--gray-200); border-radius: .25rem; background: var(--body-background); color: var(--body-font-color); max-width: 95vw; max-height: 95vh; }
+.course-image-dialog::backdrop { background: var(--body-font-color); opacity: .75; }
+.course-image-dialog > img { display: block; width: auto; height: auto; max-width: min(88vw, calc(95vw - 2rem - 2px)); max-height: min(82vh, calc(100dvh - 5rem)); object-fit: contain; }
+.course-image-close { position: absolute; right: .5rem; top: .25rem; border: 0; background: transparent; color: inherit; font-size: 2rem; cursor: pointer; min-width: 2rem; }
+@media print { .course-image-dialog { display: none !important; } }
+</style><script>/* Used by the published site and the trusted, script-sandboxed draft wrapper. */
+window.initializeCourseImagePreview = function (doc) {
+  if (!doc.querySelector('meta[name="course-image-preview"]')) return;
+  const image = doc.querySelector('.book-brand img');
+  if (!image || image.closest('button')) return;
+  const link = image.closest('a');
+  if (!link) return;
+  const button = doc.createElement('button');
+  button.type = 'button';
+  button.className = 'course-image-open';
+  button.setAttribute('aria-label', 'Enlarge class picture');
+  link.before(button);
+  button.append(image);
+  const dialog = doc.createElement('dialog');
+  dialog.className = 'course-image-dialog';
+  dialog.setAttribute('aria-label', 'Class picture');
+  const close = doc.createElement('button');
+  close.type = 'button';
+  close.className = 'course-image-close';
+  close.setAttribute('aria-label', 'Close enlarged picture');
+  close.textContent = '\u00d7';
+  const enlarged = doc.createElement('img');
+  enlarged.alt = 'Enlarged class picture';
+  dialog.append(close, enlarged);
+  doc.body.append(dialog);
+  button.addEventListener('click', () => {
+    enlarged.src = image.currentSrc || image.src;
+    dialog.showModal();
+    close.focus();
+  });
+  close.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', event => { if (event.target === dialog) dialog.close(); });
+  dialog.addEventListener('close', () => button.focus());
+};
+if (document.readyState === 'loading') {
+  document.addEventListener('DOMContentLoaded', () => window.initializeCourseImagePreview(document));
+} else {
+  window.initializeCourseImagePreview(document);
+}
+</script><style id="course-navigation-levels">/* Use the course theme's neutral palette for the sidebar hierarchy. */
+/* Let the desktop menu follow the document; retain the mobile drawer scroll. */
+@media screen and (min-width: 56.001rem) {
+  .book-menu .book-menu-content {
+    position: static;
+    overflow: visible;
+  }
+}
+
+.book-menu nav > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  font-weight: 700;
+}
+.book-menu nav > ul > li > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  color: color-mix(in srgb, var(--body-font-color) 80%, var(--body-background));
+  font-weight: 400;
+}
+.book-menu nav > ul > li > ul > li > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  color: color-mix(in srgb, var(--body-font-color) 85%, var(--body-background));
+  font-weight: 600;
+}
+.book-menu nav > ul > li > ul > li > ul > li > ul > li > :is(a, span, label) {
+  color: var(--body-font-color);
+  color: color-mix(in srgb, var(--body-font-color) 70%, var(--body-background));
+  font-weight: 400;
+}
+.book-menu nav > ul a:hover,
+.book-menu nav > ul a:focus-visible {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.book-menu nav > ul a.active {
+  color: var(--body-font-color);
+  background: var(--gray-100);
+  box-shadow: inset 3px 0 var(--gray-500);
+  font-weight: 700;
+  text-decoration: none;
+}
+</style></head>
+<body dir="ltr">
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      <div class="book-menu-content">
+        
+  <nav>
+<h2 class="book-brand">
+  <a class="flex align-center" href="../../../../../" target="_self" rel="noopener noreferrer"><img src="../../../../../branding/ML.png" alt="Logo" /><span>Class Homepage</span>
+  </a>
+</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <ul>
+    
+      
+        
+          <li class="book-section-flat" >
+            
+  
+  
+
+  
+    <span>Course Info</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/course-info/course-overview/" class="" target="_self" rel="noopener noreferrer">Course Overview</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/course-info/instructors-and-tas/" class="" target="_self" rel="noopener noreferrer">People</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/course-info/course-schedule-mahdi/" class="" target="_self" rel="noopener noreferrer">Course Schedule (Max Mahdi)</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <span>Guidelines</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/guidelines/general/" class="" target="_self" rel="noopener noreferrer">General</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/guidelines/office-hours/" class="" target="_self" rel="noopener noreferrer">Office Hours</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/guidelines/project-interviews/" class="" target="_self" rel="noopener noreferrer">Project Interview Rules</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/guidelines/ed-discussion/" class="" target="_self" rel="noopener noreferrer">Ed Discussion</a>
+  
+
+            
+  <ul>
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/guidelines/honorlock/" class="" target="_self" rel="noopener noreferrer">Honorlock</a>
+  
+
+            
+  <ul>
+    
+  </ul>
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <span>Grading</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/categories/" class="" target="_self" rel="noopener noreferrer">Categories</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/qquizzes-and-exams/" class="" target="_self" rel="noopener noreferrer">Quizzes and Exams</a>
+  
+
+            
+  <ul>
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/" class="" target="_self" rel="noopener noreferrer">Projects: Individual and Team</a>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/individual-project/" class="" target="_self" rel="noopener noreferrer">Individual Project</a>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/individual-project/requirements/" class="active" target="_self" rel="noopener noreferrer">Requirements</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/individual-project/website-template/" class="" target="_self" rel="noopener noreferrer">Individual Project Website Template</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/" class="" target="_self" rel="noopener noreferrer">Team Project</a>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/topic-example/" class="" target="_self" rel="noopener noreferrer">Topic and Project Example</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/proposal/" class="" target="_self" rel="noopener noreferrer">Team Proposal</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/midterm/" class="" target="_self" rel="noopener noreferrer">Team Midterm Review</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/final/" class="" target="_self" rel="noopener noreferrer">Team Final Report</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/website-template/" class="" target="_self" rel="noopener noreferrer">Team Project Website Template</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/bonus/" class="" target="_self" rel="noopener noreferrer">Bonus</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/grading/project-breakdown/team-project/awards-and-examples/" class="" target="_self" rel="noopener noreferrer">Awards and Examples</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+      
+        
+          <li class="book-section-flat" >
+            
+  
+  
+
+  
+    <span>Resources</span>
+  
+
+            
+  <ul>
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/resources/collection/" class="" target="_self" rel="noopener noreferrer">Collection</a>
+  
+
+          </li>
+        
+      
+    
+      
+        
+          <li>
+            
+  
+  
+
+  
+    <a href="../../../../../docs/resources/print-website/" class="" target="_self" rel="noopener noreferrer">Print Website</a>
+  
+
+          </li>
+        
+      
+    
+  </ul>
+
+          </li>
+        
+      
+    
+  </ul>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var e=document.querySelector("aside .book-menu-content");addEventListener("beforeunload",function(){localStorage.setItem("menu.scrollTop",e.scrollTop)}),e.scrollTop=localStorage.getItem("menu.scrollTop")})()</script>
+
+
+ 
+      </div>
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="../../../../../svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Requirements</strong>
+
+  <label for="toc-control">
+    
+    <img src="../../../../../svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#requirements" target="_self" rel="noopener noreferrer">Requirements</a>
+      <ul>
+        <li><a href="#start-with-the-required-website-template" target="_self" rel="noopener noreferrer">Start with the required website template</a></li>
+        <li><a href="#midterm-find-patterns-without-the-answers" target="_self" rel="noopener noreferrer">Midterm: find patterns without the answers</a></li>
+        <li><a href="#final-predict-the-answers-the-course-assigned" target="_self" rel="noopener noreferrer">Final: predict the answers the course assigned</a></li>
+        <li><a href="#final-ta-interview-and-deadline" target="_self" rel="noopener noreferrer">Final TA interview and deadline</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="requirements">
+  Requirements
+  <a class="anchor" href="#requirements" target="_self" rel="noopener noreferrer">#</a>
+</h1>
+<p><a href="https://ml-class.cc.gatech.edu/" target="_blank" rel="noopener noreferrer">ML Class Hub</a> will give you the <strong>required dataset</strong>. Do not choose a different one. The final prediction question or questions depend on that dataset and will be stated separately; this website template does not decide them. This is your own project, separate from the team project.</p>
+<h2 id="start-with-the-required-website-template">
+  Start with the required website template
+  <a class="anchor" href="#start-with-the-required-website-template" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p>Create <strong>your own GitHub Pages project website</strong> and register its link in ML Class Hub. Keep that same link all semester. The word <em>website</em> below means <strong>your project website</strong>, not this course-instructions page.</p>
+<p>Open the <a href="../website-template/" target="_blank" rel="noopener noreferrer">rendered individual website template</a> to see the <strong>required headings, subsection order, fill-in explanations, and example tables</strong>. Use the download link near the top of that page to save the complete Markdown starter (<code>.md</code>) for your own website. Keep its numbered headings and fill them with your own work. The assigned dataset and target groups come from ML Class Hub; sample text is not a result to copy.</p>
+<h2 id="midterm-find-patterns-without-the-answers">
+  Midterm: find patterns without the answers
+  <a class="anchor" href="#midterm-find-patterns-without-the-answers" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p>First, prepare the assigned data. Then use at least one way to keep fewer original features or create fewer new features. Run a <strong>clustering method</strong> twice: once using all features and once using the smaller feature version. Show the groups, use suitable class-taught measures that do not need labels, and explain what worked or failed. The <a href="../website-template/#3-midterm-finding-patterns-without-using-the-answers" target="_blank" rel="noopener noreferrer">template&rsquo;s midterm section</a> walks through every subsection.</p>
+<p>Submit <strong>one 10-minute unlisted YouTube video link</strong> in the individual project area of ML Class Hub. Explain your work and a result in the video. There is no individual TA interview at midterm; the team midterm interview is a separate requirement and needs no video. Open <a href="https://ml-class.cc.gatech.edu/projects/" target="_blank" rel="noopener noreferrer">your projects in ML Class Hub</a>, select your individual midterm checkpoint, and save your unlisted YouTube link. Test playback while signed out and keep it available through grading.</p>
+<h2 id="final-predict-the-answers-the-course-assigned">
+  Final: predict the answers the course assigned
+  <a class="anchor" href="#final-predict-the-answers-the-course-assigned" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p>Continue on the <strong>same website</strong>. Once the course states what to predict for the dataset, write those questions on your project website in plain language. Do not assume that ML Class Hub has already supplied answer groups or a ready-made experiment.</p>
+<ul>
+<li><strong><span style="background-color:#e7f1fb;color:#123b67;border-left:4px solid #123b67;padding:0.1em 0.35em">CS 4641 · Undergraduate</span></strong>: run <strong>two</strong> feature-selection/reduction methods and <strong>two</strong> prediction models.</li>
+<li><strong><span style="background-color:#f4eafa;color:#54236b;border-left:4px solid #54236b;padding:0.1em 0.35em">CS 7641 · Graduate</span></strong>: run <strong>three</strong> feature-selection/reduction methods and <strong>three</strong> prediction models.</li>
+</ul>
+<p>For <strong>each</strong> prediction question the course states for the dataset, test each prediction model with all features and with each smaller feature version. Use the same training, validation, and test examples across models so the comparison is fair. The <a href="../website-template/#4-final-predicting-the-assigned-answers" target="_blank" rel="noopener noreferrer">template&rsquo;s final section</a> gives the exact layout and an example results table. Explain mistakes and limits, not only your best score.</p>
+<h2 id="final-ta-interview-and-deadline">
+  Final TA interview and deadline
+  <a class="anchor" href="#final-ta-interview-and-deadline" target="_self" rel="noopener noreferrer">#</a>
+</h2>
+<p>The individual final is a live interview. <strong>No individual final video is required.</strong></p>
+<p>Show your current website and code in the final TA meeting. Be ready to explain your data, method choices, comparisons, mistakes, and what you personally did. These are common question areas, <strong>not a complete question list</strong>; the TA may ask other relevant questions or request a small demonstration. There is no extra early website submission. You may keep improving the website until the final deadline on the <a href="../../../../course-info/course-schedule-mahdi/" target="_blank" rel="noopener noreferrer">course schedule</a>.</p>
+<p>Before attending, read the <a href="../../../../guidelines/project-interviews/" target="_blank" rel="noopener noreferrer">Project Interview Rules</a>, which apply to both the team midterm and individual final interviews.</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+
+
+</div>
+
+
+
+  <script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){if(window.getSelection().toString())return;e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script>
+
+
+ 
+        
+      </footer>
+
+      
+  
+  <div class="book-comments">
+
+</div>
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      <div class="book-toc-content">
+        
+  
+<nav id="TableOfContents">
+  <ul>
+    <li><a href="#requirements" target="_self" rel="noopener noreferrer">Requirements</a>
+      <ul>
+        <li><a href="#start-with-the-required-website-template" target="_self" rel="noopener noreferrer">Start with the required website template</a></li>
+        <li><a href="#midterm-find-patterns-without-the-answers" target="_self" rel="noopener noreferrer">Midterm: find patterns without the answers</a></li>
+        <li><a href="#final-predict-the-answers-the-course-assigned" target="_self" rel="noopener noreferrer">Final: predict the answers the course assigned</a></li>
+        <li><a href="#final-ta-interview-and-deadline" target="_self" rel="noopener noreferrer">Final TA interview and deadline</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+ 
+      </div>
+    </aside>
+    
+  </main>
+
+  
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
