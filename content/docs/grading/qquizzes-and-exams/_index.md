@@ -20,9 +20,9 @@ Questions draw on assigned lecture videos, slides, written notes, annotations, e
 
 ## Midterm exam
 
-**Campus students:** take the midterm in class. Follow your instructor's in-class exam instructions and the announced date, time, and location.
+The midterm takes place in person during class.
 
-The midterm is the only exam. It covers assigned material through dimensionality reduction (L14), inclusive. Study the assigned videos, slides, and written notes; practice quizzes are not an exhaustive list. The exam draws questions from a bank, so students can receive different questions. Do not assume another student's exam is identical to yours.
+The midterm is the only exam. The midterm covers required material through DBSCAN (L16). Dimensionality reduction (L17) is outside the exam scope. Clustering evaluation, density estimation, and practical advice are optional enrichment. They are outside the scope of the quizzes and the midterm. Study the assigned videos, slides, and written notes; practice quizzes are not an exhaustive list. The exam draws questions from a bank, so students can receive different questions. Do not assume another student's exam is identical to yours.
 
 **Exam questions, answers, screenshots, and details must remain private.** Do not discuss, copy, post, or share them with classmates, on Ed, or anywhere else, during or after the exam window. If you need to ask about a question or report a problem, contact your assigned mentor through a private Ed Discussion post; see [contact instructions](../../guidelines/ed-discussion/#contact-your-mentor-through-ed-discussion). Do not send exam content to another student.
 

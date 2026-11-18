@@ -1,0 +1,247 @@
+generatedYear: 2027
+tableRows:
+- Week: 1
+  Dates: Jan 11th - Jan 15th
+  Topics:
+  - '[Course overview](/course/mroozbahani3/01-introduction.pdf) (L1)'
+  - '[Data analysis toolbox, part 1](/course/mroozbahani3/02-numpy_broadcasting_tutorial.ipynb)
+    (L2)'
+  Quizzes:
+  - 'Q0: L1, L2 (warmup)'
+  Exam: []
+  Project:
+  - 'Individual and team projects released: Jan 15th'
+  Readings:
+  - '[GT Honor Code](https://policies.gatech.edu/student-life/academic-honor-code)'
+  - '[Heilmeier Catechism](https://www.darpa.mil/about/heilmeier-catechism)'
+  - '[GitHub Pages Quickstart](https://docs.github.com/en/pages/quickstart)'
+  - '[YAML Configuration](https://github.com/daattali/beautiful-jekyll/blob/master/_config.yml)'
+  - '[NumPy Tutorial](https://cs231n.github.io/python-numpy-tutorial/)'
+  - '[seaborn: statistical data visualization](https://seaborn.pydata.org/)'
+  - '[Overleaf for GT students](https://www.overleaf.com/edu/gatech)'
+  - '[NumPy tutorial](https://numpy.org/doc/stable/user/absolute_beginners.html)'
+- Week: 2
+  Dates: Jan 18th - Jan 22nd
+  Topics:
+  - Official institute holiday -- Martin Luther King, Jr. Day (Jan 18th - Jan 18th)
+  - '[Linear algebra, part 1](/course/mroozbahani3/03-linear-algebra.pdf) (L3) — [Notes](/course/mroozbahani3/03-linear-algebra-note.pdf)'
+  - '[Linear algebra, part 2](/course/mroozbahani3/03-linear-algebra.pdf) (L4) — [Notes](/course/mroozbahani3/03-linear-algebra-note.pdf)'
+  Quizzes:
+  - 'Q1: L3, L4; Syllabus quiz'
+  Exam: []
+  Project: []
+  Readings:
+  - '[Linear Algebra Review by Zico Kolter](https://cs229.stanford.edu/section/cs229-linalg.pdf)'
+  - '[Stanford linear algebra review](https://cs229.stanford.edu/section/cs229-linalg.pdf)'
+- Week: 3
+  Dates: Jan 25th - Jan 29th
+  Topics:
+  - '[Probability and statistics, part 1](/course/mroozbahani3/04-probability.pdf)
+    (L5) — [Notes](/course/mroozbahani3/04-probability-note.pdf)'
+  - '[Probability and statistics, part 2](/course/mroozbahani3/04-probability.pdf)
+    (L6) — [Notes](/course/mroozbahani3/04-probability-note.pdf)'
+  Quizzes:
+  - 'Q2: L5, L6'
+  Exam: []
+  Project:
+  - 'Team composition due: Jan 31st'
+  Readings:
+  - '[Independence, Correlation, Orthogonality](https://www.youtube.com/watch?v=s5lCl3aQ_A4&ab_channel=linanhuang)'
+  - '[Stanford probability review](https://cs229.stanford.edu/section/cs229-prob.pdf)'
+- Week: 4
+  Dates: Feb 1st - Feb 5th
+  Topics:
+  - '[Information theory, part 1](/course/mroozbahani3/05-info-theory.pdf) (L7) —
+    [Notes](/course/mroozbahani3/05-info-theory-note.pdf)'
+  - '[Information theory, part 2](/course/mroozbahani3/05-info-theory.pdf) (L8) —
+    [Notes](/course/mroozbahani3/05-info-theory-note.pdf)'
+  Quizzes: []
+  Exam: []
+  Project:
+  - '[Team proposal due](/docs/grading/project-breakdown/team-project/proposal/):
+    Feb 7th'
+  Readings:
+  - '[The Differences Between Data, Information and Knowledge](https://web.archive.org/web/20210107132902/http://www.infogineering.net/data-information-knowledge.htm)'
+  - '[Visual Information Theory by Chris Olah](http://colah.github.io/posts/2015-09-Visual-Information/)'
+  - '[More about Cross Entropy and KLD](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)'
+  - '[Visual information theory](https://colah.github.io/posts/2015-09-Visual-Information/)'
+- Week: 5
+  Dates: Feb 8th - Feb 12th
+  Topics:
+  - '[Optimization, part 1](/course/mroozbahani3/06-optimization.pdf) (L9) — [Notes](/course/mroozbahani3/06-optimization-note.pdf)'
+  - '[Optimization, part 2](/course/mroozbahani3/06-optimization.pdf) (L10) — [Notes](/course/mroozbahani3/06-optimization-note.pdf)'
+  Quizzes:
+  - 'Q3: L7–L10'
+  Exam: []
+  Project: []
+  Readings:
+  - '[KKT for inequality constrained optimization](https://www.youtube.com/watch?v=TqN-8fxYUYY)'
+  - '[Stanford optimization notes](https://cs231n.github.io/optimization-1/)'
+  - '[Jensen Inequality Interactive Visualization](/files/interactive-visualization/jensen_concave_interactive.html)'
+  - '[Lagrange Function](/files/interactive-visualization/Lagrange_Barrier_Surface_Studio_v5_CLEAN.html)'
+- Week: 6
+  Dates: Feb 15th - Feb 19th
+  Topics:
+  - '[Data analysis toolbox, part 2](/course/mroozbahani3/02-numpy_broadcasting_tutorial.ipynb)
+    (L11)'
+  - '[Clustering and K-means](/course/mroozbahani3/08-clustering.pdf) (L12) — [Notes](/course/mroozbahani3/08-clustering-note.pdf)'
+  Quizzes:
+  - 'Q4: L11, L12'
+  Exam: []
+  Project: []
+  Readings:
+  - '[Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)'
+  - '[seaborn: statistical data visualization](https://seaborn.pydata.org/)'
+  - '[Clustering guide](https://scikit-learn.org/stable/modules/clustering.html)'
+- Week: 7
+  Dates: Feb 22nd - Feb 26th
+  Topics:
+  - '[Hierarchical clustering](/course/mroozbahani3/10-hierarchical-clustering.pdf)
+    (L13) — [Notes](/course/mroozbahani3/10-hierarchical-clustering-note.pdf)'
+  - '[Gaussian mixture models, part 1](/course/mroozbahani3/09-gaussian-mixture.pdf)
+    (L14) — [Notes](/course/mroozbahani3/09-gaussian-mixture-note.pdf)'
+  Quizzes: []
+  Exam: []
+  Project: []
+  Readings:
+  - '[Dendrogram Visualization](https://www.data-to-viz.com/graph/dendrogram.html)'
+  - '[Clustering guide](https://scikit-learn.org/stable/modules/clustering.html)'
+  - '[Gaussian mixture models](https://scikit-learn.org/stable/modules/mixture.html)'
+- Week: 8
+  Dates: Mar 1st - Mar 5th
+  Topics:
+  - '[Gaussian mixture models, part 2](/course/mroozbahani3/09-gaussian-mixture.pdf)
+    (L15) — [Notes](/course/mroozbahani3/09-gaussian-mixture-note.pdf)'
+  - '[Density-based clustering (DBSCAN)](/course/mroozbahani3/11-density-clustering.pdf)
+    (L16) — [Notes](/course/mroozbahani3/11-density-clustering-note.pdf)'
+  Quizzes:
+  - 'Q5: L14, L15'
+  - 'Q6: L13, L16'
+  - 'Q7: coverage to be announced'
+  Exam: []
+  Project: []
+  Readings:
+  - 'Optional enrichment (Clustering evaluation): [Clustering evaluation](https://scikit-learn.org/stable/modules/clustering.html)'
+  - 'Optional enrichment (Density estimation): [KDE interactive visualization](https://mathisonian.github.io/kde/)'
+  - 'Optional enrichment (Density estimation): [KernelDensity in scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KernelDensity.html)'
+  - 'Optional enrichment (Density estimation): [Density estimation](https://scikit-learn.org/stable/modules/density.html)'
+- Week: 9
+  Dates: Mar 8th - Mar 12th
+  Topics:
+  - Spring Break (Mar 8th - Mar 12th)
+  Quizzes: []
+  Exam: []
+  Project: []
+  Readings: []
+- Week: 10
+  Dates: Mar 15th - Mar 19th
+  Topics:
+  - In-person midterm exam
+  - '[Dimensionality reduction](/course/mroozbahani3/14-dimension-reduction.pdf) (L17)
+    — [Notes](/course/mroozbahani3/14-dimension-reduction-note.pdf)'
+  Quizzes:
+  - 'Q8: L17'
+  Exam:
+  - The midterm takes place in person during class. The midterm covers required material
+    through DBSCAN (L16). Dimensionality reduction (L17) is outside the exam scope.
+  Project:
+  - 'Team midterm review (update your website before your meeting): Mar 15th - Mar
+    28th'
+  Readings:
+  - '[Feature extraction using Principal Component Analysis](https://www.visiondummy.com/2014/05/feature-extraction-using-pca/)'
+  - '[Principal Component Analysis for images](https://people.ciirc.cvut.cz/~hlavac/TeachPresEn/11ImageProc/15PCA.pdf)'
+  - '[PCA and decomposition](https://scikit-learn.org/stable/modules/decomposition.html)'
+- Week: 11
+  Dates: Mar 22nd - Mar 26th
+  Topics:
+  - '[Linear regression, part 1](/course/mroozbahani3/15-linear-regression.pdf) (L18)
+    — [Notes](/course/mroozbahani3/15-linear-regression-note.pdf)'
+  - '[Linear regression, part 2](/course/mroozbahani3/15-linear-regression.pdf) (L19)
+    — [Notes](/course/mroozbahani3/15-linear-regression-note.pdf)'
+  Quizzes: []
+  Exam: []
+  Project:
+  - 'Individual midterm: 10-minute unlisted YouTube video and website update due (11:59
+    PM AoE): Mar 28th'
+  Readings:
+  - '[Adding Noise to Regression Predictors](http://madrury.github.io/jekyll/update/statistics/2017/08/12/noisy-regression.html)'
+  - '[Linear models](https://scikit-learn.org/stable/modules/linear_model.html)'
+- Week: 12
+  Dates: Mar 29th - Apr 2nd
+  Topics:
+  - '[Regularization](/course/mroozbahani3/16-regularized-regression.pdf) (L20) —
+    [Notes](/course/mroozbahani3/16-regularized-regression-note.pdf)'
+  - '[Naive Bayes and logistic regression, part 1](/course/mroozbahani3/17-logistic-regression.pdf)
+    (L21) — [Notes](/course/mroozbahani3/17-logistic-regression-note.pdf)'
+  Quizzes:
+  - 'Q9: L18–L20'
+  Exam: []
+  Project: []
+  Readings:
+  - '[Why Cross Entropy over MSE for Classification](https://susanqq.github.io/tmp_post/2017-09-05-crossentropyvsmes/)'
+  - '[More about Cross Entropy and KLD](https://machinelearningmastery.com/cross-entropy-for-machine-learning/)'
+  - '[Linear models](https://scikit-learn.org/stable/modules/linear_model.html)'
+- Week: 13
+  Dates: Apr 5th - Apr 9th
+  Topics:
+  - '[Naive Bayes and logistic regression, part 2](/course/mroozbahani3/17-logistic-regression.pdf)
+    (L22) — [Notes](/course/mroozbahani3/17-logistic-regression-note.pdf)'
+  - '[Neural networks](/course/mroozbahani3/18-neural-network.pdf) (L23) — [Notes](/course/mroozbahani3/18-neural-network-note.pdf)'
+  Quizzes:
+  - 'Q10: L21, L22'
+  - 'Q11: L23'
+  Exam: []
+  Project: []
+  Readings:
+  - '[Neural Network Playground](https://playground.tensorflow.org/)'
+  - '[Initializing neural networks](https://www.deeplearning.ai/ai-notes/initialization/index.html)'
+  - '[Back propagation numerical example](https://hmkcode.com/ai/backpropagation-step-by-step/)'
+  - 'Optional enrichment (Practical advice): [Common ML pitfalls](https://scikit-learn.org/stable/common_pitfalls.html)'
+  - '[Stanford neural networks notes](https://cs231n.github.io/neural-networks-1/)'
+- Week: 14
+  Dates: Apr 12th - Apr 16th
+  Topics:
+  - '[Convolutional neural networks](/course/mroozbahani3/19-neural-network-cnn.pdf)
+    (L24) — [Notes](/course/mroozbahani3/19-neural-network-cnn-note.pdf)'
+  - '[Decision trees](/course/mroozbahani3/20-decision-tree.pdf) and [random forests](/course/mroozbahani3/21-ensemble-learning-randomforest.pdf)
+    (L25) — [Decision tree notes](/course/mroozbahani3/20-decision-tree-note.pdf),
+    [Random forest notes](/course/mroozbahani3/21-ensemble-learning-randomforest-note.pdf)'
+  Quizzes:
+  - 'Q12: L24'
+  - 'Q13: L25'
+  Exam: []
+  Project:
+  - 'Individual final interview: meet with your TA (no individual final video): Apr
+    12th - Apr 25th'
+  Readings:
+  - '[Convolutional Neural Network Live Demo](https://cs.stanford.edu/people/karpathy/convnetjs/demo/cifar10.html)'
+  - '[Back Propagation in Convolutional Neural Networks](https://www.jefkine.com/general/2016/09/05/backpropagation-in-convolutional-neural-networks/)'
+  - '[Stanford CNN notes](https://cs231n.github.io/convolutional-networks/)'
+  - '[Decision trees](https://scikit-learn.org/stable/modules/tree.html)'
+  - '[Ensemble methods](https://scikit-learn.org/stable/modules/ensemble.html)'
+- Week: 15
+  Dates: Apr 19th - Apr 23rd
+  Topics:
+  - '[Support vector machines, part 1](/course/mroozbahani3/22-svm.pdf) (L26) — [Notes](/course/mroozbahani3/22-svm-note.pdf)'
+  - '[Support vector machines, part 2](/course/mroozbahani3/22-svm.pdf) (L27) — [Notes](/course/mroozbahani3/22-svm-note.pdf)'
+  Quizzes: []
+  Exam: []
+  Project:
+  - 'Team final video due (one unlisted YouTube link per team; no interview; 11:59
+    PM AoE): Apr 25th'
+  Readings:
+  - '[Support vector machines](https://scikit-learn.org/stable/modules/svm.html)'
+- Week: 16
+  Dates: Apr 26th - Apr 27th
+  Topics:
+  - 'Final instructional days: Apr 26th - Apr 27th'
+  - '[SVM kernels](/course/mroozbahani3/23-svm-kernel.pdf) (L28) — [Notes](/course/mroozbahani3/23-svm-kernel-note.pdf)'
+  Quizzes:
+  - 'Q14: L26–L28'
+  Exam: []
+  Project:
+  - 'Individual and team final websites due (last instructional day, 11:59 PM AoE):
+    Apr 27th'
+  - '[Project award consideration](/docs/grading/project-breakdown/team-project/awards-and-examples/)
+    based on final websites: Apr 27th'
+  Readings: []
