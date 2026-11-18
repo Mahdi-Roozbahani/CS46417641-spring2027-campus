@@ -1,0 +1,15 @@
+{
+  "name": "Class Homepage",
+  "short_name": "Class Homepage",
+  "start_url": "/CS46417641-spring2027-campus/",
+  "scope": "/CS46417641-spring2027-campus/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/CS46417641-spring2027-campus/favicon.svg",
+      "sizes": "512x512"
+    }
+  ]
+}
